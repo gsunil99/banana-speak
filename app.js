@@ -5,7 +5,7 @@ var serverUrl = "https://api.funtranslations.com/translate/minion.json"
 
 function errorHandler(error){
     console.log("error handler ",error);
-    alert("something wrong with server, try after some timef")
+    alert("something wrong with server, try after some time")
 }
 translate_button.addEventListener("click",function translateToBanana(){
     textUrl =  serverUrl + "?text=" + text_area.value;
